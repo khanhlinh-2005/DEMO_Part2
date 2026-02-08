@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1146155593169069779}
   - component: {fileID: -5552146690127715018}
   - component: {fileID: -1563796305184883397}
-  - component: {fileID: 1973849550675905654}
+  - component: {fileID: 2366933173578934902}
   m_Layer: 0
   m_Name: Enemy_01
   m_TagString: Untagged
@@ -163,7 +163,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1973849550675905654
+--- !u!114 &2366933173578934902
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,8 +172,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3888548040240047729}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21f5aa3b7367a824eac4b9c5f2284122, type: 3}
+  m_Script: {fileID: 11500000, guid: fbe1827dddbc2bd46a9c4f76161b0013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionPrefab: {fileID: 1590253151088148, guid: 1a118c8be32c30f4d849d3e8166d88d4,
+  explosionPrefab: {fileID: 1280240331523082, guid: 031faf5ef0ec4c34c86671fa3e2e81d1,
     type: 3}
+  defaultHealthPoint: 2
